@@ -159,6 +159,7 @@ var exports = module.exports = function (entryFile, opts) {
     });
     
     Object.keys(EventEmitter.prototype).forEach(function (key) {
+        if (!w[key] || !w[key].bind) return;
         self[key] = w[key].bind(w);
     });
     
