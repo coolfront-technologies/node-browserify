@@ -1,6 +1,6 @@
 {
     "name" : "browserify",
-    "version" : "1.10.18-psi.dev.2",
+    "version" : "1.10.19-psidev",
     "private": true,
     "description" : "Browser-side require() for js directories and npm modules",
     "main" : "index.js",
